@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+.face{
+    border: 25px solid black;
+    width: 33.33%;
+    height: auto;
+    margin: 10% 33.33%;
+    padding: 0;
+}
+.clock{
+    text-align: center;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 5em;
+    background-color: limegreen;
+    width: 100%;
+}
