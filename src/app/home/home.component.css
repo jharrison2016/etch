@@ -1,10 +1,17 @@
+.outerRim{
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    border: 25px outset mediumblue;
+}
+
 .innerRim{
     background-color: rgb(48, 48, 48);
     border: 25px solid rgb(48, 48, 48);
     border-radius: 3em 3em 0em 3em;
     width: 75%;
     height: 80vh;
-    margin: 5% 0%;
+    margin: 5% 0% 5% 10%;
     padding: 0;
 }
 
@@ -28,24 +35,17 @@
 .button1{
     background-color: red;
     border-radius: 4em;
-    height: 44vh;
+    height: calc(44vh - 10px);
+    box-shadow: 0 10px rgb(197, 0, 0);
     margin-top: 0vh;
     margin-left: -2vw;
     width: 8.5vw;
 }
 .button1:hover{
     transform: translateY(-4px);
-    box-shadow: 0 10px rgb(255, 68, 68);
 }
 .button1:active{
-    background-color: rgb(121, 0, 0);
+    background-color: rgb(136, 0, 0);
     transform: translateY(4px);
+    box-shadow: 0 10px rgb(78, 0, 0);
 }
-.outerRim{
-    width: 100%;
-    margin-left: 8%;
-}
-.watch{
-    width: 100%;
-}
-
