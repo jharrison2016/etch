@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { ClockComponent } from './clock/clock.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ClockComponent
+    ClockComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
