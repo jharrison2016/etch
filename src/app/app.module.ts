@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatButtonModule } from '@angular/material/button';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -14,7 +15,11 @@ import { ClockComponent } from './clock/clock.component';
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
+    MatButtonModule
+  ],
+  exports: [
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

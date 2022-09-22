@@ -1,11 +1,21 @@
 .innerRim{
     background-color: rgb(48, 48, 48);
     border: 25px solid rgb(48, 48, 48);
-    border-radius: 3em;
+    border-radius: 3em 3em 0em 3em;
     width: 75%;
     height: 80vh;
-    margin: 5% 12.5%;
+    margin: 5% 0%;
     padding: 0;
+}
+
+.buttonRim{
+    background-color: rgb(48, 48, 48);
+    border: 25px solid rgb(48, 48, 48);
+    border-radius: 0em 6em 6em 0em;
+    height: 30em;
+    margin-top: 24.75em;
+    width: 10%;
+
 }
 
 .face{
@@ -15,4 +25,27 @@
     height: 75vh;
 }
 
+.button1{
+    background-color: red;
+    border-radius: 4em;
+    height: 44vh;
+    margin-top: 0vh;
+    margin-left: -2vw;
+    width: 8.5vw;
+}
+.button1:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px rgb(255, 68, 68);
+}
+.button1:active{
+    background-color: rgb(121, 0, 0);
+    transform: translateY(4px);
+}
+.outerRim{
+    width: 100%;
+    margin-left: 8%;
+}
+.watch{
+    width: 100%;
+}
 
