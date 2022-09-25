@@ -24,3 +24,44 @@
     line-height: 20vh;
     color: rgb(33, 131, 33);
 }
+
+@media screen and (min-width:375px) {
+    .clock{
+        height: 88vh;
+    }
+    .time{
+        line-height: 85vh;
+        font-size: 2em;
+    }
+    .date{
+        line-height: 1vh;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .clock{
+        text-align: center;
+        font-family: 'Share Tech Mono', monospace;
+        background-color: limegreen;
+        width: 100%;
+        height: 70vh;
+        border-radius: 1em;
+        user-select: none;
+    }
+    
+    .time{
+        font-size: 10em;
+        height: 50%;
+        line-height: 60vh;
+        color: rgb(33, 131, 33);
+    
+    }
+    
+    .date{
+        font-size: 2.5em;
+        height: 50%;
+        line-height: 20vh;
+        color: rgb(33, 131, 33);
+    }
+}

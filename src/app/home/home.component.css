@@ -49,3 +49,88 @@
     transform: translateY(4px);
     box-shadow: 0 10px rgb(78, 0, 0);
 }
+
+@media screen and (min-width: 375px) {
+    .outerRim{
+        border: 10px outset mediumblue;
+    }
+    .innerRim{
+        border: 10px solid rgb(48, 48, 48);
+        width: 84%;
+        height: 95vh;
+        margin: 2% 0% 2% 2%;
+    }
+    .buttonRim{
+        border: 10px solid rgb(48, 48, 48);
+        margin-top: 30.2em;
+        height: 9.85em;
+    }
+    .face{
+        border: 10px solid black;
+        height: 92vh;
+    }
+    .button1{
+        height: calc(15vh - 10px);
+        margin-left: -6vw;
+        margin-top: 3vh;
+        box-shadow: 0 5px rgb(197, 0, 0);
+    }
+    ::ng-deep .mat-raised-button{
+        min-width: 25px!important;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .outerRim{
+        width: 100%;
+        height: 100vh;
+        margin: 0%;
+        border: 25px outset mediumblue;
+    }
+    
+    .innerRim{
+        background-color: rgb(48, 48, 48);
+        border: 25px solid rgb(48, 48, 48);
+        border-radius: 3em 3em 0em 3em;
+        width: 75%;
+        height: 80vh;
+        margin: 5% 0% 5% 10%;
+        padding: 0;
+    }
+    
+    .buttonRim{
+        background-color: rgb(48, 48, 48);
+        border: 25px solid rgb(48, 48, 48);
+        border-radius: 0em 6em 6em 0em;
+        height: 30em;
+        margin-top: 24.6em;
+        width: 10%;
+    
+    }
+    
+    .face{
+        border: 25px solid black;
+        border-radius: 2em;
+        background-color: limegreen;
+        height: 75vh;
+    }
+    
+    .button1{
+        background-color: red;
+        border-radius: 4em;
+        height: calc(44vh - 10px);
+        box-shadow: 0 10px rgb(197, 0, 0);
+        margin-top: 0vh;
+        margin-left: -2vw;
+        width: 8.5vw;
+    }
+    .button1:hover{
+        transform: translateY(-4px);
+    }
+    .button1:active{
+        background-color: rgb(136, 0, 0);
+        transform: translateY(4px);
+        box-shadow: 0 10px rgb(78, 0, 0);
+    }
+    
+}
